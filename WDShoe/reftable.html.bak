@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+   <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>WD Shoes - RefTable</title>
+  </head>
+  <body>
+    <div class="first-fold">
+      <header class="headerNike">
+        <a href="index.html">
+          <p class="logoNike">Will DiIorio's shoes</p>
+        </a>
+
+        <nav class="main-nav">
+          <ul class="main-nav-list" role="navigation">
+		  <li><a class="main-nav-link" href="index.html">Home</a></li>
+            <li><a class="main-nav-link" href="nike.html">NIKE</a></li>
+            <li><a class="main-nav-link" href="#adidas">Adidas</a></li>
+            <li><a class="main-nav-link" href="#reftable">Images</a> </li>
+          </ul>
+        </nav>
+      </header>
+
+        <section class="ref-table" id="reftable">
+	<h1 class="headingtable">
+	Image Reference table
+	</h1>
+
+<table border="1"width="10%" height="10%">
+<tbody>
+ <tr> 
+    <th></th>
+    <th>Image</th>
+    <th>Appears In:</th>
+    <th>Source</th>
+  </tr>
+  <tr>
+    <th>black.jpg</th>
+    <td><img style="display:block;" width="100%" height="100%" src="D:\WDShoe\img\black.jpg" /></td>
+    <td>Adidas</td>
+    <td>My own photo</td>
+  </tr>
+  <tr> 
+    <th>bluejordan.jpg</th>
+    <td><img style="display:block;" width="100%" height="100%" src="D:\WDShoe\img\bluejordan.jpg" /></td>
+    <td>NIKE</td>
+    <td>My own photo</td>
+ </tr>
+ <tr> 
+    <th>bred.jpg</th>
+    <td><img style="display:block;" width="100%" height="100%" src="D:\WDShoe\img\bred.jpg" /></td>
+    <td>Adidas</td>
+    <td>My own photo</td>
+ </tr>
+  <tr> 
+    <th>brown.jpg</th>
+    <td><img style="display:block;" width="100%" height="100%" src="D:\WDShoe\img\brown.jpg" /></td>
+    <td>Adidas</td>
+    <td>My own photo</td>
+ </tr>
+  <tr> 
+    <th>chicago.jpg</th>
+    <td><img style="display:block;" width="100%" height="100%" src="D:\WDShoe\img\chicago.jpg" /></td>
+    <td>NIKE</td>
+    <td>My own photo</td>
+ </tr>
+  <tr> 
+    <th>converse.jpg</th>
+    <td><img style="display:block;" width="100%" height="100%" src="D:\WDShoe\img\converse.jpg" /></td>
+    <td>Other</td>
+    <td>My own photo</td>
+ </tr>
+  <tr> 
+    <th>dunkblue.jpg</th>
+    <td><img style="display:block;" width="100%" height="100%" src="D:\WDShoe\img\dunkblue.jpg" /></td>
+    <td>NIKE</td>
+    <td>My own photo</td>
+ </tr>
+  <tr> 
+    <th>frozen.jpg</th>
+    <td><img style="display:block;" width="100%" height="100%" src="D:\WDShoe\img\frozen.jpg" /></td>
+    <td>Adidas</td>
+    <td>My own photo</td>
+ </tr>
+  <tr> 
+    <th>glow.jpg</th>
+    <td><img style="display:block;" width="100%" height="100%" src="D:\WDShoe\img\glow.jpg" /></td>
+    <td>Adidas</td>
+    <td>My own photo</td>
+ </tr>
+  <tr> 
+    <th>og.jpg</th>
+    <td><img style="display:block;" width="100%" height="100%" src="D:\WDShoe\img\og.jpg" /></td>
+    <td>Adidas</td>
+    <td>My own photo</td>
+ </tr>
+  <tr> 
+    <th>pacman.jpg</th>
+    <td><img style="display:block;" width="100%" height="100%" src="D:\WDShoe\img\pacman.jpg" /></td>
+    <td>NIKE</td>
+    <td>My own photo</td>
+ </tr>
+  <tr> 
+    <th>red.jpg</th>
+    <td><img style="display:block;" width="100%" height="100%" src="D:\WDShoe\img\red.jpg" /></td>
+    <td>Adidas</td>
+    <td>My own photo</td>
+ </tr>
+  <tr> 
+    <th>rickmorty.jpg</th>
+    <td><img style="display:block;" width="100%" height="100%" src="D:\WDShoe\img\rickmorty.jpg" /></td>
+    <td>Other</td>
+    <td>My own photo</td>
+ </tr>
+  <tr> 
+    <th>slide.jpg</th>
+    <td><img style="display:block;" width="100%" height="100%" src="D:\WDShoe\img\slide.jpg" /></td>
+    <td>Adidas</td>
+    <td>My own photo</td>
+ </tr>
+  <tr> 
+    <th>string.jpg</th>
+    <td><img style="display:block;" width="100%" height="100%" src="D:\WDShoe\img\string.jpg" /></td>
+    <td>NIKE</td>
+    <td>My own photo</td>
+ </tr>
+  <tr> 
+    <th>sun.jpg</th>
+    <td><img style="display:block;" width="100%" height="100%" src="D:\WDShoe\img\sun.jpg" /></td>
+    <td>Adidas</td>
+    <td>My own photo</td>
+ </tr>
+  <tr> 
+    <th>zebra.jpg</th>
+    <td><img style="display:block;" width="100%" height="100%" src="D:\WDShoe\img\zebra.jpg" /></td>
+    <td>Adidas</td>
+    <td>My own photo</td>
+ </tr>
+ </tbody>
+</table>
+        </div>
+      </div>
+    </section>

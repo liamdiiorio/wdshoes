@@ -1,0 +1,436 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* 10px / 16px = 0.625 =62.5*/
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+/*Style for Descriptions*/
+body {
+  font-family: 'Rubik', sans-serif;
+  line-height: 1.5;
+  font-size: 1.3rem;
+  font-weight: 400;
+  overflow-x: hidden;
+  color: black;
+  background-color: #009999;
+}
+.home {
+  padding: 2rem 0 7rem 0;
+}
+
+.main-nav img {
+  width: 50%;
+  justify-self: end;
+  border-radius: 0px;
+}
+
+.main-nav p {
+  font-size: 2.2rem;
+}
+
+.text {
+  max-width: 45rem;
+  background-color: #e7ac21;
+  padding: 10rem 5rem;
+  margin-left: -5rem;
+  border-radius: 9px;
+}
+
+.text h2 {
+  margin-bottom: 4.5rem;
+  text-align: center;
+}
+/*Home Button*/
+.home-btn {
+  background-color: blue;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  border-radius: 8px;
+}
+.home-btn:hover {
+  background-color: #223094;
+  
+}
+/*Nike Button*/
+.nike-btn {
+  background-color: yellow;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  border-radius: 9px;
+}
+.nike-btn:hover {
+  background-color: #223094;
+  
+}
+/*adidas Button*/
+.adidas-btn {
+  background-color: red;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  border-radius: 9px;
+}
+.adidas-btn:hover {
+  background-color: #223094;
+  
+}
+/*Other Button*/
+.other-btn {
+  background-color: black;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  border-radius: 9px;
+}
+.other-btn:hover {
+  background-color: #223094;
+  
+}
+
+/*Image Reference Button*/
+.image-btn {
+  background-color: white;
+  color: black;
+  padding: 15px 25px;
+  text-decoration: none;
+  border-radius: 9px;
+}
+.image-btn:hover {
+  background-color: #223094;
+  
+}
+/*Heading Styles on Home Page*/
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+  font-weight: 700;
+  color: black;
+  letter-spacing: -0.5px;
+      margin-left: auto;
+    margin-right: auto;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+      margin-left: auto;
+    margin-right: auto;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 5.6rem;
+  text-align: auto;
+      margin-left: auto;
+    margin-right: auto;
+}
+
+.heading-tertiary {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin: 1.2rem;
+      margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+/* ****************** */
+/* Logo */
+/* ****************** */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  height: 9.6rem;
+  padding: 0 4.8rem;
+      margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+  height: 2.2rem;
+  font-size: 9.6rem;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+      margin-left: auto;
+    margin-right: auto;
+	
+}
+
+/* ****************** */
+/* Navigation */
+/* ****************** */
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 6.8rem;
+}
+
+.main-nav-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #462d12;
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+.mydivouter{
+	position:relative;
+	background: #f90;
+    width: 200px;
+    height: 120px;
+    margin: 0 auto;
+}
+.mydivoverlap{
+    position: relative;
+    z-index: 1;
+}
+.link-nike {
+  display: inline-block;
+  text-decoration: underline;
+  color: #442d12;
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+.link-adidas {
+  display: inline-block;
+  text-decoration: underline;
+  color: #442d12;
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+
+
+.main-nav-link.nav-cta {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #523414;
+}
+
+/* ****************** */
+/* Hero section */
+/* ****************** */
+.section-hero {
+  padding: 15rem 0 9.6rem;
+}
+
+.hero {
+  max-width: 750rem;
+  padding: 0 9.6rem;
+  align-items: left;
+      margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin: 4.8rem 0;
+      margin-left: auto;
+    margin-right: auto;
+}
+
+/*NIKE page*/
+.headerNike {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  height: 9.6rem;
+  padding: 0 4.8rem;
+        margin-left: auto;
+    margin-right: auto;
+}
+
+.logoNike {
+  height: 2.2rem;
+  font-size: 1.6rem;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  color: #462d12;
+        margin-left: auto;
+    margin-right: auto;
+}
+
+.our-services {
+  padding: 9.6rem 0;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 1.5rem 3.2rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.services img {
+  width: 80%;
+  border-radius: 9px;
+}
+
+a:hover{text-decoration: block;} 
+
+/*Image Reference Table*/
+.headingtable {
+	  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  height: 9.6rem;
+  padding: 0 4.8rem;
+  margin: 0 auto;
+   width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.table-about {
+  grid-template-columns: 0.3fr 1.2fr 1.2fr;
+  gap: 0;
+  
+}
+table {
+  table-layout: fixed;
+  width: 1200px;
+  border: 1px solid red;
+   width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+  border: 1px solid blue;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+/*adidas*/
+.adidas {
+  padding: 2rem 0 7rem 0;
+}
+
+.adidas img {
+  width: 50%;
+  justify-self: end;
+  border-radius: 0px;
+}
+
+.adidas p {
+  font-size: 2.2rem;
+}
+
+.text {
+  max-width: 45rem;
+  background-color: #e7ac21;
+  padding: 10rem 5rem;
+  margin-left: -5rem;
+  border-radius: 9px;
+}
+
+.text h2 {
+  margin-bottom: 4.5rem;
+  text-align: center;
+}
+
+
+
+/* Footer */
+
+footer {
+  text-align: center;
+  background-color: #e7ac21;
+  padding: 2.5rem;
+}
+a.link-nike {
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: #54b3d6;
+  margin: 1 -6rem;
+  padding: 1 6rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+a.link-nike:hover {
+  box-shadow: inset 100px 0 0 0 #54b3d6;
+  color: white;
+}
+.adidas img:hover{
+    color: #424242; 
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  opacity: 1;
+  transform: scale(1.15);
+  -ms-transform: scale(1.15); /* IE 9 */
+  -webkit-transform: scale(1.15); /* Safari and Chrome */
+  
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 8
+   Coding Challenge 2
+   
+   Filename: code8-2_styles.css
+
+*/
+
+html {
+   background-color: white;
+}
+
+body {
+   width: 960px;
+   padding: 20px;
+   margin: 3px auto;
+   background-color: white;
+   position: relative;
+}
+
+h1 {
+   font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+   color: white;
+   text-shadow: 0px 0px 2px black, 0px 0px 20px black;
+   font-size: 4em;
+   text-align: center;
+}
+
+div#wall {
+   margin: 0px auto;
+   width: 600px;
+   position: relative;
+}
+<style type="text/css">
+  #footer {
+    position : absolute;
+    bottom : 0;
+    height : 40px;
+    margin-top : 40px;
+  }
+</style>
+<div id="footer">I am footer</div>
