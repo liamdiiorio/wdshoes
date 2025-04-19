@@ -1,0 +1,203 @@
+@charset "utf-8";
+
+
+html {
+   background-color:#009999;;
+}
+
+/*Descriptions*/
+body {
+   width: 960px;
+   padding: 20px;
+   margin: 50px auto;
+ font-family:'Rubik', sans-serif;
+   position: relative;
+   
+   
+ 
+}
+/*Grid data for shoes*/
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 3rem 0rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.shoes img {
+  width: 80%;
+  border-radius: 9px;
+}
+
+
+
+
+
+/*heading1*/
+
+h1 {
+   font-family:'Rubik', sans-serif;
+   color: black;
+   font-size: 4em;
+   text-align: center;
+      background-color: yellow;
+}
+/*heading 2 */
+h2 {
+   font-family:'Rubik', sans-serif;
+   color: black;
+   font-size: 2em;
+   text-align: center;
+}
+/*heading3*/
+h3 {
+   font-family:'Rubik', sans-serif;
+   color: black;
+   font-size: 1.5em;
+   text-align: center;
+}
+
+div#display {
+   margin: 50px auto;
+   width: 600px;
+   position: relative;
+}
+/*Home Button*/
+.home-btn {
+  background-color: #339966;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  font-family:'Rubik', sans-serif;
+  border-radius: 8px;
+}
+.home-btn:hover {
+  background-color: #223094;
+  
+}
+/*Nike Button*/
+.nike-btn {
+  background-color: #00cc99;
+  color: white;
+  padding: 15px 25px;
+  font-family:'Rubik', sans-serif;
+  text-decoration: none;
+  border-radius: 9px;
+}
+.nike-btn:hover {
+  background-color: #223094;
+  
+}
+/*adidas Button*/
+.adidas-btn {
+  background-color:#33ccff;
+  color: white;
+ font-family:'Rubik', sans-serif;
+  padding: 15px 25px;
+  text-decoration: none;
+  border-radius: 9px;
+}
+.adidas-btn:hover {
+  background-color: #223094;
+  
+}
+/*Other Button*/
+.other-btn {
+  background-color: #9999ff;
+  color: white;
+  font-family:'Rubik', sans-serif;
+  padding: 15px 25px;
+  text-decoration: none;
+  border-radius: 9px;
+}
+.other-btn:hover {
+  background-color: #223094;
+  
+}
+
+/*Image Reference Button*/
+.image-btn {
+  background-color: #9933ff;
+  color: white;
+  font-family:'Rubik', sans-serif;
+  padding: 15px 25px;
+  text-decoration: none;
+  border-radius: 9px;
+}
+.image-btn:hover {
+  background-color: #223094;
+  
+}
+footer {
+  text-align: center;
+  background-color: #e7ac21;
+  padding: 2.5rem;
+}
+
+}
+
+/*container for top of page*/
+#container {
+ display:grid;
+   grid-template-rows:auto auto auto;
+   grid-template-columns:100%;
+   background-image:
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: yellow;
+  height: 9.6rem;
+  padding:   30px;
+  border-radius:9px;
+}
+/*WD Shoes Header*/
+.logo {
+  height: 75px;
+  font-size: 3.6rem;
+  text-decoration: none;
+  font-family:'Rubik', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+}
+
+
+/*Nav bar setting*/
+.nav-bar-list {
+ 
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.nav-bar-link {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+/*Table*/
+table, th, td {
+margin-left: 320px;
+  border: 1px solid;
+  width: 10%;
+  height: 50%;
+  align-items: center;
+  
+}
+
+img {
+  width: 100%;
+  display: block;
+}

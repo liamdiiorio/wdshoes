@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+/*Size of picture images*/
+picture {
+
+display: block;
+
+width: 600px;
+
+position: absolute;
+
+z-index: 1;
+
+cursor: pointer;
+
+}
+
+picture img {
+
+display: block;
+
+width: 100%;
+
+
+
+width: 150px;
+
+}
+
+picture piccaption {
+
+font-size: 0px;
+width: 50%;
+text-align: center;
+
+font-family: 'Rubik', sans-serif;
+
+background-color: rgba(255, 255, 255, 0.7);
+
+}
+
+#pic1 {
+
+top: -250px;
+left: -400px;
+
+margin-left: auto;
+margin-right: auto
+
+}
+
+#pic2 {
+
+top: 0px;
+
+left: -400px;
+
+
+margin-left: auto;
+margin-right: auto;
+}
+
+#pic3 {
+
+top: 0px;
+
+left: -400px;
+
+margin-left: auto;
+margin-right: auto;
+
+}
+
+#pic4 {
+
+top: 250px;
+
+left: -400px;
+
+
+margin-left: auto;
+margin-right: auto
+
+}
+
+#pic5 {
+
+top: -250px;
+
+left: 850px;
+
+margin-left: auto;
+margin-right: auto
+
+}
+
+#pic6 {
+
+top: 0px;
+
+left: 850px;
+
+margin-left: auto;
+margin-right: auto
+
+}
+#pic7 {
+
+top: 250px;
+
+left: 850px;
+
+margin-left: auto;
+margin-right: auto
+
+}
+
+
+
+picture:hover {
+
+width: 100%;
+
+z-index: 1;
+
+transition: all 0.1s;
+
+}
+
+picture:hover img {
+
+width: 100%;
+
+
+transition: filter 0.1s;
+
+}
+
+picture:hover piccaption {
+
+font-size: 1em;
+
+transition: font-size 0.5s;
+
+}
+
+#pic1:hover, #pic2:hover, #pic3:hover, #pic4:hover, #pic5:hover, #pic6:hover,#pic7:hover{
+    width: 70%;
+    z-index: 2;
+    transition: width 0.4s;
+}
+#pic1:hover img, #pic2:hover img, #pic3:hover img, #pic4:hover img, #pic5:hover img, #pic6:hover img, #pic7:hover img{
+    width: 40%;
+
+    transition: filter 0.4s;
+    transition: all 0.4s;
+}
